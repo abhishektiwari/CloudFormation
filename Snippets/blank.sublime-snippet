@@ -1,0 +1,31 @@
+<snippet>
+<content>
+<![CDATA[
+{
+
+    "AWSTemplateFormatVersion" : "${1:2010-09-09}",
+
+    "Description" : "${2:CloudFormation for my cloud stack}",
+
+    "Parameters" : {
+        ${3:set of parameters}
+    },
+
+    "Mappings" : {
+        ${4:set of mappings}
+    },
+
+    "Resources" : {
+        ${5:set of resources}
+    },
+
+    "Outputs" : {
+        ${6:set of outputs}
+    }
+}
+]]>
+</content>
+<tabTrigger>blank</tabTrigger>
+<scope>source.json</scope>
+<description>alias</description>
+</snippet>
